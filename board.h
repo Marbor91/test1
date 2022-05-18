@@ -3,13 +3,6 @@
 #define   INVBIT(reg, bit)          reg ^= (1<<bit)
 #define   BITISSET(reg, bit)      ((reg & (1<<bit)) != 0)
 #define   BITISCLEAR(reg, bit)    ((reg & (1<<bit)) == 0)
-
-
-
-
-
-
-
 // выход Ў»ма под двигатель 1 канал (3 вывод ардуино)
 #define OUT1_L 		 3
 #define OUT1_L_PORT	 PORTD
